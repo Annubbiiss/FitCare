@@ -24,6 +24,10 @@ sealed class Constants(val route : String){
     object ForthQuestion : Constants("FORTH_QUESTION")
     object FifthQuestion : Constants("FIFTH_QUESTION")
     object SixthQuestion : Constants("SIXTH_QUESTION")
+    object BMICALC: Constants("BMI_CALCULATE")
+    object BMIRES : Constants("BMI_RESULT")
+    object STEPS : Constants("DAILY_STEPS")
+    object CALORIES : Constants("DAILY_CALORIES")
 
 
 }
